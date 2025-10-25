@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/owner_controlled_wallet.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.recovery_mechanism]
+path = 'contracts/recovery_mechanism.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
