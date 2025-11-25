@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/recovery_mechanism.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.storage_with_value_locking]
+path = 'contracts/storage_with_value_locking.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
