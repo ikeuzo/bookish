@@ -10,6 +10,11 @@ path = 'contracts/auto_deposit_wallet.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.multi_token]
+path = 'contracts/multi_token.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.owner_controlled_wallet]
 path = 'contracts/owner_controlled_wallet.clar'
 clarity_version = 2
